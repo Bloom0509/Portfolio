@@ -1,0 +1,47 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102132"/>
+      <stop offset="1" stop-color="#081018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+  <rect x="76" y="78" width="1048" height="744" rx="32" fill="#0F1A27" stroke="white" stroke-opacity="0.08"/>
+  <circle cx="600" cy="440" r="126" fill="#7FE0CF" fill-opacity="0.12"/>
+  <circle cx="600" cy="440" r="84" fill="#0B1118" stroke="white" stroke-opacity="0.12"/>
+  <text x="600" y="424" text-anchor="middle" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="54" font-weight="600">Stack</text>
+  <text x="600" y="474" text-anchor="middle" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="18">focused on production work</text>
+
+  <g fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="16">
+    <rect x="176" y="188" width="188" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="220" y="236">React</text>
+    <rect x="430" y="146" width="178" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="472" y="194">Python</text>
+    <rect x="676" y="182" width="184" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="722" y="230">Django</text>
+    <rect x="892" y="296" width="168" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="928" y="344">FastAPI</text>
+    <rect x="860" y="522" width="196" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="902" y="570">PostgreSQL</text>
+    <rect x="648" y="654" width="198" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="696" y="702">Redis</text>
+    <rect x="402" y="676" width="176" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="450" y="724">Docker</text>
+    <rect x="164" y="538" width="178" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="208" y="586">AWS</text>
+    <rect x="140" y="300" width="164" height="82" rx="22" fill="white" fill-opacity="0.04"/>
+    <text x="180" y="348">RAG</text>
+  </g>
+
+  <g stroke="#7FE0CF" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round">
+    <path d="M364 230C432 276 488 324 530 394"/>
+    <path d="M518 228C548 282 572 334 586 384"/>
+    <path d="M674 224C652 274 634 322 618 386"/>
+    <path d="M888 336C796 372 724 402 684 438"/>
+    <path d="M840 564C776 540 708 506 666 474"/>
+    <path d="M650 654C646 604 636 556 620 506"/>
+    <path d="M488 676C518 620 546 570 576 516"/>
+    <path d="M250 538C330 508 396 484 452 458"/>
+    <path d="M222 382C302 404 388 418 450 436"/>
+  </g>
+</svg>

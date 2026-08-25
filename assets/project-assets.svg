@@ -1,0 +1,40 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101D2B"/>
+      <stop offset="1" stop-color="#081018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="34" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1092" height="692" rx="28" fill="#0B1118" stroke="white" stroke-opacity="0.08"/>
+  <rect x="84" y="84" width="1032" height="88" rx="22" fill="white" fill-opacity="0.04"/>
+  <text x="118" y="138" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="36">Asset Library</text>
+  <text x="930" y="138" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="15" letter-spacing="2">UPLOAD</text>
+
+  <rect x="84" y="202" width="294" height="540" rx="26" fill="white" fill-opacity="0.04"/>
+  <text x="116" y="246" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="2">FILTERS</text>
+  <rect x="116" y="272" width="230" height="52" rx="16" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <text x="142" y="305" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="15">Recent</text>
+  <rect x="116" y="338" width="230" height="52" rx="16" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <text x="142" y="371" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="15">Shared</text>
+  <rect x="116" y="404" width="230" height="52" rx="16" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <text x="142" y="437" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="15">Approved</text>
+  <rect x="116" y="470" width="230" height="52" rx="16" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <text x="142" y="503" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="15">Archived</text>
+
+  <rect x="406" y="202" width="710" height="540" rx="26" fill="white" fill-opacity="0.04"/>
+  <rect x="438" y="236" width="190" height="170" rx="20" fill="#7FE0CF" fill-opacity="0.18"/>
+  <rect x="642" y="236" width="190" height="170" rx="20" fill="#F0B56D" fill-opacity="0.18"/>
+  <rect x="846" y="236" width="238" height="170" rx="20" fill="#7AA6FF" fill-opacity="0.18"/>
+  <rect x="438" y="424" width="256" height="274" rx="20" fill="white" fill-opacity="0.05"/>
+  <rect x="708" y="424" width="376" height="132" rx="20" fill="white" fill-opacity="0.05"/>
+  <rect x="708" y="570" width="376" height="128" rx="20" fill="white" fill-opacity="0.05"/>
+  <text x="466" y="275" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Secure</text>
+  <text x="466" y="309" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">upload</text>
+  <text x="670" y="275" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Retrieval</text>
+  <text x="874" y="275" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Organization</text>
+  <text x="466" y="472" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="2">PERFORMANCE</text>
+  <path d="M476 640C508 618 548 616 584 626C618 636 646 662 660 684" stroke="#7FE0CF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M736 486H1040" stroke="#F0B56D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M736 632H1030" stroke="#7AA6FF" stroke-width="10" stroke-linecap="round"/>
+</svg>

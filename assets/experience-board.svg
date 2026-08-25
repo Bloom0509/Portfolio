@@ -1,0 +1,56 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1824"/>
+      <stop offset="1" stop-color="#081018"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="120" x2="980" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FE0CF"/>
+      <stop offset="1" stop-color="#7AA6FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#bg)"/>
+  <rect x="76" y="78" width="1048" height="744" rx="32" fill="#0E1824" stroke="white" stroke-opacity="0.08"/>
+  <path d="M202 180H998" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+  <circle cx="212" cy="180" r="10" fill="#7FE0CF"/>
+  <circle cx="212" cy="340" r="10" fill="#F0B56D"/>
+  <circle cx="212" cy="500" r="10" fill="#7AA6FF"/>
+  <circle cx="212" cy="660" r="10" fill="#7FE0CF"/>
+  <path d="M212 190V650" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="260" y="134" width="362" height="128" rx="24" fill="white" fill-opacity="0.04"/>
+  <text x="290" y="176" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">VIRTUSA</text>
+  <text x="290" y="216" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="34">AI + full-stack</text>
+  <text x="290" y="248" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="17">Training, showcase, and platform orientation.</text>
+
+  <rect x="260" y="294" width="404" height="128" rx="24" fill="white" fill-opacity="0.04"/>
+  <text x="290" y="336" fill="#F0B56D" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">TCS</text>
+  <text x="290" y="376" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="34">Backend systems</text>
+  <text x="290" y="408" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="17">DRF services, performance gains, and secure media flows.</text>
+
+  <rect x="260" y="454" width="520" height="128" rx="24" fill="white" fill-opacity="0.04"/>
+  <text x="290" y="496" fill="#7AA6FF" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">METRICS</text>
+  <text x="290" y="536" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="34">2,000+ users</text>
+  <text x="290" y="568" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="17">40% faster queries through indexing and caching.</text>
+
+  <rect x="260" y="614" width="340" height="142" rx="24" fill="white" fill-opacity="0.04"/>
+  <rect x="620" y="614" width="340" height="142" rx="24" fill="white" fill-opacity="0.04"/>
+  <text x="290" y="656" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Secure media</text>
+  <text x="290" y="690" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">Upload, retrieval, and organization flows.</text>
+  <text x="650" y="656" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">AI design</text>
+  <text x="650" y="690" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">Prompt-driven design generation and delivery.</text>
+
+  <rect x="812" y="134" width="260" height="622" rx="28" fill="white" fill-opacity="0.04"/>
+  <text x="842" y="178" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">TOPICS</text>
+  <text x="842" y="232" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Systems</text>
+  <text x="842" y="270" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">APIs</text>
+  <text x="842" y="310" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">Caching</text>
+  <text x="842" y="350" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">Security</text>
+  <text x="842" y="390" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">AI</text>
+  <text x="842" y="430" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">Delivery</text>
+  <text x="842" y="470" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">Mentorship</text>
+  <rect x="842" y="520" width="196" height="160" rx="20" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <text x="866" y="565" fill="#F0B56D" font-family="Sora, Arial, sans-serif" font-size="12" letter-spacing="2">HIGHLIGHT</text>
+  <text x="866" y="606" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="26">AI Impact</text>
+  <text x="866" y="634" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="26">Summit 2026</text>
+</svg>

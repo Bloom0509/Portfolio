@@ -1,0 +1,46 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1A27"/>
+      <stop offset="1" stop-color="#081018"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="34" fill="url(#bg)"/>
+  <rect x="54" y="54" width="1092" height="692" rx="28" fill="#0B1118" stroke="white" stroke-opacity="0.08"/>
+  <rect x="92" y="92" width="1016" height="58" rx="18" fill="white" fill-opacity="0.04"/>
+  <circle cx="130" cy="121" r="9" fill="#7FE0CF"/>
+  <circle cx="156" cy="121" r="9" fill="#F0B56D"/>
+  <circle cx="182" cy="121" r="9" fill="#7AA6FF"/>
+  <text x="230" y="128" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="15">AI Design Studio</text>
+
+  <rect x="92" y="178" width="344" height="548" rx="26" fill="white" fill-opacity="0.04"/>
+  <text x="126" y="226" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">PROMPT</text>
+  <rect x="126" y="250" width="276" height="124" rx="20" fill="#0B1118" stroke="white" stroke-opacity="0.08"/>
+  <text x="150" y="290" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Create a</text>
+  <text x="150" y="324" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">clean dashboard</text>
+  <text x="150" y="354" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="15">with cards, metrics, and a calm palette</text>
+  <rect x="126" y="404" width="128" height="46" rx="14" fill="#7FE0CF"/>
+  <text x="154" y="433" fill="#07101A" font-family="Sora, Arial, sans-serif" font-size="15" font-weight="700">Generate</text>
+  <rect x="262" y="404" width="140" height="46" rx="14" fill="white" fill-opacity="0.06"/>
+  <text x="292" y="433" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="15">Refine</text>
+
+  <rect x="468" y="178" width="640" height="548" rx="26" fill="white" fill-opacity="0.04"/>
+  <rect x="508" y="218" width="228" height="156" rx="22" fill="white" fill-opacity="0.05"/>
+  <rect x="756" y="218" width="308" height="156" rx="22" fill="white" fill-opacity="0.05"/>
+  <rect x="508" y="396" width="556" height="288" rx="22" fill="white" fill-opacity="0.05"/>
+  <text x="538" y="262" fill="#F0B56D" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="2">SUMMARY</text>
+  <text x="538" y="300" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="34">Prompt-first</text>
+  <text x="538" y="336" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="16">structured for fast iteration</text>
+  <text x="788" y="262" fill="#7AA6FF" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="2">OUTPUT</text>
+  <path d="M790 318H1010" stroke="#7FE0CF" stroke-width="9" stroke-linecap="round"/>
+  <path d="M790 346H960" stroke="#F0B56D" stroke-width="9" stroke-linecap="round"/>
+  <text x="538" y="444" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="2">LAYERS</text>
+  <rect x="538" y="466" width="492" height="42" rx="12" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <rect x="538" y="520" width="410" height="42" rx="12" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <rect x="538" y="574" width="460" height="42" rx="12" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <rect x="538" y="628" width="372" height="42" rx="12" fill="#081018" stroke="white" stroke-opacity="0.08"/>
+  <circle cx="576" cy="487" r="8" fill="#7FE0CF"/>
+  <circle cx="576" cy="541" r="8" fill="#F0B56D"/>
+  <circle cx="576" cy="595" r="8" fill="#7AA6FF"/>
+  <circle cx="576" cy="649" r="8" fill="#7FE0CF"/>
+</svg>

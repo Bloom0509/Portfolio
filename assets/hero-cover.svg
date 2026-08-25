@@ -1,0 +1,83 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="120" y1="80" x2="1040" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102235"/>
+      <stop offset="1" stop-color="#081018"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="200" y1="140" x2="980" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FE0CF"/>
+      <stop offset="1" stop-color="#A7F0E6"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="720" y1="140" x2="980" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0B56D"/>
+      <stop offset="1" stop-color="#FFD8A6"/>
+    </linearGradient>
+    <filter id="blur" x="-40" y="-40" width="1280" height="980" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="36" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" rx="36" fill="url(#g1)"/>
+  <circle cx="220" cy="150" r="130" fill="#7FE0CF" fill-opacity="0.14" filter="url(#blur)"/>
+  <circle cx="985" cy="180" r="160" fill="#F0B56D" fill-opacity="0.12" filter="url(#blur)"/>
+  <circle cx="960" cy="720" r="180" fill="#7AA6FF" fill-opacity="0.12" filter="url(#blur)"/>
+
+  <rect x="78" y="78" width="420" height="744" rx="30" fill="#0E1824" stroke="white" stroke-opacity="0.08"/>
+  <rect x="526" y="78" width="596" height="352" rx="30" fill="#101D2B" stroke="white" stroke-opacity="0.08"/>
+  <rect x="526" y="454" width="282" height="368" rx="30" fill="#0F1A27" stroke="white" stroke-opacity="0.08"/>
+  <rect x="834" y="454" width="288" height="176" rx="30" fill="#132132" stroke="white" stroke-opacity="0.08"/>
+  <rect x="834" y="656" width="288" height="166" rx="30" fill="#122031" stroke="white" stroke-opacity="0.08"/>
+
+  <circle cx="288" cy="204" r="92" fill="url(#g2)" fill-opacity="0.22"/>
+  <circle cx="288" cy="204" r="62" fill="#0B1118" stroke="white" stroke-opacity="0.16"/>
+  <text x="288" y="219" text-anchor="middle" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="52" font-weight="600">AD</text>
+  <text x="288" y="292" text-anchor="middle" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="18" letter-spacing="2">ARPITA DAS</text>
+  <text x="288" y="320" text-anchor="middle" fill="#9CADBA" font-family="Sora, Arial, sans-serif" font-size="14">Software Engineer</text>
+
+  <rect x="138" y="382" width="300" height="86" rx="20" fill="white" fill-opacity="0.04"/>
+  <rect x="138" y="384" width="300" height="86" rx="20" stroke="white" stroke-opacity="0.08"/>
+  <text x="170" y="418" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">CURRENT FOCUS</text>
+  <text x="170" y="448" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="24">AI-assisted systems</text>
+
+  <rect x="138" y="495" width="136" height="110" rx="20" fill="white" fill-opacity="0.04"/>
+  <rect x="292" y="495" width="146" height="110" rx="20" fill="white" fill-opacity="0.04"/>
+  <text x="164" y="533" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">2k+</text>
+  <text x="164" y="562" fill="#9CADBA" font-family="Sora, Arial, sans-serif" font-size="13">active users</text>
+  <text x="316" y="533" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">40%</text>
+  <text x="316" y="562" fill="#9CADBA" font-family="Sora, Arial, sans-serif" font-size="13">query gain</text>
+
+  <text x="558" y="126" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="14" letter-spacing="2">PORTFOLIO SNAPSHOT</text>
+  <text x="558" y="182" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="58">Work that ships.</text>
+  <text x="558" y="230" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="19">Backend systems, AI workflows, and polished interfaces.</text>
+
+  <rect x="558" y="272" width="514" height="116" rx="22" fill="white" fill-opacity="0.04"/>
+  <rect x="588" y="300" width="164" height="60" rx="18" fill="#0B1118" stroke="white" stroke-opacity="0.08"/>
+  <rect x="774" y="300" width="126" height="60" rx="18" fill="#0B1118" stroke="white" stroke-opacity="0.08"/>
+  <rect x="918" y="300" width="124" height="60" rx="18" fill="#0B1118" stroke="white" stroke-opacity="0.08"/>
+  <text x="620" y="336" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="16">AI workflows</text>
+  <text x="801" y="336" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="16">APIs</text>
+  <text x="943" y="336" fill="#EEF4F8" font-family="Sora, Arial, sans-serif" font-size="16">Scaling</text>
+
+  <path d="M600 620C658 560 724 570 770 610C816 650 856 700 944 706C1018 711 1056 678 1084 640" stroke="url(#g2)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M602 648C664 608 720 620 768 650C820 682 860 712 946 716C1018 720 1058 694 1082 672" stroke="url(#g3)" stroke-width="8" stroke-linecap="round" stroke-opacity="0.88"/>
+
+  <rect x="554" y="512" width="192" height="120" rx="22" fill="white" fill-opacity="0.04"/>
+  <rect x="554" y="512" width="192" height="120" rx="22" stroke="white" stroke-opacity="0.08"/>
+  <text x="578" y="548" fill="#7FE0CF" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="1.6">DEPLOYMENT</text>
+  <text x="578" y="582" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">Reliable</text>
+  <text x="578" y="610" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="28">delivery</text>
+
+  <rect x="872" y="500" width="218" height="92" rx="20" fill="white" fill-opacity="0.04"/>
+  <rect x="872" y="500" width="218" height="92" rx="20" stroke="white" stroke-opacity="0.08"/>
+  <text x="898" y="536" fill="#F0B56D" font-family="Sora, Arial, sans-serif" font-size="13" letter-spacing="1.6">SUMMIT TALK</text>
+  <text x="898" y="568" fill="#EEF4F8" font-family="Fraunces, Georgia, serif" font-size="24">AI Impact 2026</text>
+
+  <rect x="872" y="618" width="218" height="126" rx="20" fill="white" fill-opacity="0.04"/>
+  <rect x="872" y="618" width="218" height="126" rx="20" stroke="white" stroke-opacity="0.08"/>
+  <circle cx="910" cy="665" r="12" fill="#7FE0CF"/>
+  <circle cx="910" cy="697" r="12" fill="#F0B56D"/>
+  <circle cx="910" cy="729" r="12" fill="#7AA6FF"/>
+  <text x="940" y="672" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="14">Prompt-first design</text>
+  <text x="940" y="704" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="14">Scalable APIs</text>
+  <text x="940" y="736" fill="#C5D0D9" font-family="Sora, Arial, sans-serif" font-size="14">Product polish</text>
+</svg>

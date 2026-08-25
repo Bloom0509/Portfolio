@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Arpita Das, focused on work experience, skills, and selected projects."
+    />
+    <meta name="theme-color" content="#081018" />
+    <title>Arpita Das | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-grid"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Arpita Das home">
+        <span class="brand-copy">
+          <strong>Arpita Das</strong>
+          <span>Software Engineer</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#experience">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy" data-reveal>
+          <h1>
+            <span class="hero-line">Turning complex product ideas</span>
+            <span class="hero-line hero-line-accent">into reliable, intelligent systems.</span>
+          </h1>
+          <p class="lede">
+            I build backend-led products, AI-enabled workflows, and clean user
+            experiences that feel effortless to use. My focus is simple: ship
+            practical work, keep systems scalable, and make every detail feel
+            intentional.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Work experience</p>
+          <h2>Work experience.</h2>
+        </div>
+
+        <div class="section-split">
+          <figure class="image-card" data-reveal>
+            <img
+              src="assets/experience-board.svg"
+              alt="Illustration showing a timeline and delivery metrics"
+            />
+            <figcaption>
+              A compact view of the work: AI-assisted platforms, media systems,
+              and measurable performance gains.
+            </figcaption>
+          </figure>
+
+          <div class="timeline">
+            <article class="timeline-card card" data-reveal>
+              <div class="timeline-meta">
+                <span class="role">Senior Software Engineer</span>
+                <span class="org">Virtusa</span>
+                <span class="date">Aug 2026 - Present</span>
+              </div>
+              <div class="timeline-body">
+                <p>Joined as an AI + full-stack engineer and is currently in induction and training.</p>
+              </div>
+            </article>
+
+            <article class="timeline-card card" data-reveal>
+              <div class="timeline-meta">
+                <span class="role">System Engineer</span>
+                <span class="org">Tata Consultancy Services</span>
+                <span class="date">Jul 2022 - Aug 2026</span>
+              </div>
+              <div class="timeline-body">
+                <p>Presented at the AI Impact Summit 2026, showcasing an AI-powered design platform for prompt-driven workflows.</p>
+                <p>Built Django REST Framework services for AI-assisted design workflows used by more than 2,000 active users.</p>
+                <p>Developed a multi-tenant image asset management platform with secure upload, retrieval, and organization flows.</p>
+                <p>Improved backend query performance by 40% through indexing, caching strategies, and paginated APIs.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Skills</p>
+          <h2>The stack I reach for when product work needs to scale.</h2>
+        </div>
+
+        <div class="section-split split-reverse">
+          <div class="skill-groups" data-reveal>
+            <article class="skill-card card">
+              <h3>Frontend</h3>
+              <div class="chips">
+                <span>React.js</span>
+                <span>Next.js</span>
+                <span>Redux</span>
+                <span>Custom Hooks</span>
+              </div>
+            </article>
+
+            <article class="skill-card card">
+              <h3>Backend</h3>
+              <div class="chips">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>Django</span>
+                <span>DRF</span>
+                <span>Flask</span>
+                <span>FastAPI</span>
+              </div>
+            </article>
+
+            <article class="skill-card card">
+              <h3>AI and Architecture</h3>
+              <div class="chips">
+                <span>GenAI</span>
+                <span>LLM</span>
+                <span>RAG</span>
+                <span>Vector Databases</span>
+                <span>REST APIs</span>
+                <span>Microservices</span>
+                <span>Event-driven systems</span>
+              </div>
+            </article>
+
+            <article class="skill-card card">
+              <h3>Performance and Delivery</h3>
+              <div class="chips">
+                <span>MongoDB</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+                <span>Kafka</span>
+                <span>Docker</span>
+                <span>AWS</span>
+                <span>CI/CD</span>
+                <span>Jest</span>
+                <span>Pytest</span>
+              </div>
+            </article>
+          </div>
+
+          <figure class="image-card" data-reveal>
+            <img
+              src="assets/skills-board.svg"
+              alt="Illustration showing a connected skill map"
+            />
+            <figcaption>
+              Focused on the stack that matters most for production work, not a
+              long list of everything ever used.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card card" data-reveal>
+            <img
+              class="project-shot"
+              src="assets/project-design.svg"
+              alt="UI mockup of an AI-powered design personalization platform"
+            />
+            <div class="project-topline">
+              <span>Featured</span>
+              <span>AI Platform</span>
+            </div>
+            <h3>AI-Powered Design Personalization Platform</h3>
+            <p>Prompt-driven design generation for contextual, AI-assisted output.</p>
+            <div class="chips chips-compact">
+              <span>React.js</span>
+              <span>Python</span>
+              <span>Django</span>
+              <span>OpenAI APIs</span>
+            </div>
+          </article>
+
+          <article class="project-card card" data-reveal>
+            <img
+              class="project-shot"
+              src="assets/project-assets.svg"
+              alt="UI mockup of a digital asset management platform"
+            />
+            <div class="project-topline">
+              <span>Platform</span>
+              <span>Media System</span>
+            </div>
+            <h3>Digital Asset Management Platform</h3>
+            <p>Multi-tenant image management for secure uploads and retrieval.</p>
+            <div class="chips chips-compact">
+              <span>Django REST</span>
+              <span>PostgreSQL</span>
+              <span>Redis</span>
+              <span>Docker</span>
+              <span>AWS</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-card card" data-reveal>
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build something useful.</h2>
+            <p>If you want to talk about AI workflows, backend systems, or product engineering, I am easy to reach.</p>
+          </div>
+
+          <div class="contact-links">
+            <a class="button button-secondary" href="https://linkedin.com/in/arpita-das-64b919206" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Arpita Das</p>
+      <p>Software Engineer focused on work that ships.</p>
+      <p>&copy; <span id="year"></span></p>
+    </footer>
+  </body>
+</html>
