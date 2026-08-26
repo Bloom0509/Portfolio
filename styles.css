@@ -92,7 +92,6 @@ a.button {
   animation-delay: -6s;
 }
 
-.site-header,
 .section,
 .site-footer {
   width: min(var(--content-width), calc(100% - 32px));
@@ -102,19 +101,23 @@ a.button {
 .site-header {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 18px 0;
+  width: 100%;
+  margin: 0;
+  padding: 18px max(16px, calc((100vw - var(--content-width)) / 2));
   backdrop-filter: blur(18px);
 }
 
 .site-header::before {
   content: "";
   position: absolute;
-  inset: 0 -16px;
+  inset: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(8, 16, 24, 0.65);
   z-index: -1;
@@ -147,11 +150,11 @@ a.button {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 10px;
 }
 
 .site-nav a {
-  padding: 10px 14px;
+  padding: 11px 16px;
   color: var(--muted-strong);
   border: 1px solid transparent;
   border-radius: 999px;
@@ -370,6 +373,9 @@ a.button {
 
 .project-shot {
   width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
   display: block;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -588,6 +594,46 @@ a.button {
 
 .project-card li + li {
   margin-top: 8px;
+}
+
+.project-highlights {
+  display: grid;
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.project-highlights-label {
+  margin: 0;
+  color: var(--accent-2);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 0.9rem;
+  transition: 180ms ease;
+}
+
+.project-link:hover {
+  transform: translateY(-1px);
+  background: rgba(127, 224, 207, 0.08);
+  border-color: rgba(127, 224, 207, 0.35);
 }
 
 .education-grid {
