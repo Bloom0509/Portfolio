@@ -1,4 +1,4 @@
-Hey, I'm Arpita
+Hey, I'm Arpita Das
 
 Welcome to my portfolio repository!
 
