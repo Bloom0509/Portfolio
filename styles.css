@@ -43,6 +43,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   font-size: 16px;
+  animation: page-fade-in 900ms ease both;
 }
 
 a {
@@ -112,6 +113,7 @@ a.button {
   margin: 0;
   padding: 18px max(16px, calc((100vw - var(--content-width)) / 2));
   backdrop-filter: blur(18px);
+  animation: header-drop-in 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
 .site-header::before {
@@ -174,7 +176,8 @@ a.button {
 }
 
 .hero {
-  min-height: calc(100vh - 96px);
+  min-height: calc(100svh - 78px);
+  height: calc(100svh - 78px);
   display: grid;
   grid-template-columns: 1fr;
   gap: 0;
@@ -184,12 +187,13 @@ a.button {
 
 .hero-copy {
   width: 100%;
-  min-height: calc(100vh - 170px);
+  min-height: calc(100svh - 170px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  animation: hero-copy-in 900ms 180ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
 .hero-copy h1,
@@ -259,6 +263,18 @@ a.button {
   opacity: 0;
   transform: translateY(16px);
   animation: hero-copy-in 900ms 260ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  width: 1px;
+  height: 38px;
+  background: linear-gradient(180deg, var(--accent), transparent);
+  transform-origin: top;
+  animation: scroll-line 1.8s 1.2s ease-in-out infinite;
 }
 
 .button {
@@ -369,6 +385,18 @@ a.button {
 .project-card {
   display: grid;
   gap: 14px;
+  overflow: hidden;
+  animation: card-float 8s ease-in-out infinite;
+  transition: transform 260ms ease, border-color 260ms ease;
+}
+
+.project-card:nth-child(2) {
+  animation-delay: -3s;
+}
+
+.project-card:hover {
+  border-color: rgba(127, 224, 207, 0.32);
+  transform: translateY(-6px);
 }
 
 .project-shot {
@@ -617,6 +645,13 @@ a.button {
   gap: 10px;
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2px;
+}
+
 .project-link {
   display: inline-flex;
   align-items: center;
@@ -634,6 +669,25 @@ a.button {
   transform: translateY(-1px);
   background: rgba(127, 224, 207, 0.08);
   border-color: rgba(127, 224, 207, 0.35);
+}
+
+.project-link span {
+  margin-left: 8px;
+  color: var(--accent);
+  font-size: 1.05em;
+}
+
+.project-link-primary {
+  color: #07101a;
+  border-color: transparent;
+  background: linear-gradient(135deg, var(--accent), #b9f4ea);
+  box-shadow: 0 12px 26px rgba(127, 224, 207, 0.15);
+}
+
+.project-link-primary:hover {
+  color: #07101a;
+  background: linear-gradient(135deg, #a6eee2, #d7fff8);
+  border-color: transparent;
 }
 
 .education-grid {
@@ -695,12 +749,55 @@ a.button {
   transform: translateY(0);
 }
 
+.project-grid [data-reveal]:nth-child(2) {
+  transition-delay: 120ms;
+}
+
+.timeline [data-reveal]:nth-child(2),
+.skill-groups [data-reveal]:nth-child(2),
+.skill-groups [data-reveal]:nth-child(3),
+.skill-groups [data-reveal]:nth-child(4) {
+  transition-delay: 120ms;
+}
+
 @keyframes drift {
   from {
     transform: translate3d(0, 0, 0) scale(1);
   }
   to {
     transform: translate3d(18px, -18px, 0) scale(1.08);
+  }
+}
+
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes header-drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scroll-line {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: translateX(-50%) scaleY(0.55);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) scaleY(1);
   }
 }
 
@@ -715,6 +812,16 @@ a.button {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes card-float {
+  0%,
+  100% {
+    box-shadow: var(--shadow);
+  }
+  50% {
+    box-shadow: 0 28px 90px rgba(0, 0, 0, 0.44);
   }
 }
 
@@ -775,13 +882,30 @@ a.button {
   .site-footer {
     width: min(var(--content-width), calc(100% - 22px));
   }
+
+  .site-header {
+    width: 100%;
+    padding: 16px 11px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  body,
+  .site-header,
   .hero-line,
-  .hero-copy .lede {
+  .hero-copy .lede,
+  .project-card {
     animation: none;
     opacity: 1;
     transform: none;
+  }
+
+  .project-card:hover {
+    transform: none;
+  }
+
+  .hero-copy,
+  .hero::after {
+    animation: none;
   }
 }
